@@ -1,0 +1,57 @@
+Crie um painel de administração para um site estático hospedado no Netlify, com os arquivos versionados em um repositório no GitHub.
+
+Este painel deve permitir editar todo o conteúdo do site — sem backend, sem banco de dados, sem CMS externo, e sem autenticação via email.
+
+📍 Acesso ao painel:
+- O painel estará localizado em `/admin`
+- Ao acessar `/admin`, exibir uma tela de login simples com senha
+- A senha padrão deve ser `123`
+- A senha pode estar salva diretamente no código JavaScript (ofuscada, se possível)
+- Após login bem-sucedido, o usuário é redirecionado para `painel.html`:
+
+
+💾 Como o painel deve salvar os dados:
+- Todos os textos e dados do site devem estar centralizados em um arquivo chamado `content.json`
+- O painel deve ler esse arquivo ao abrir e popular os campos com os dados atuais
+- Ao clicar no botão **“Salvar alterações”**, o painel deve:
+  - Autenticar na **GitHub API** usando um **Personal Access Token** fornecido pelo usuário
+  - Fazer commit diretamente no repositório do GitHub, sobrescrevendo o `content.json`
+  - Assim que o GitHub detectar o commit, o Netlify deve redeployar o site automaticamente
+
+✏️ O painel deve permitir:
+- Editar ou desativar **todos os textos do site**, incluindo:
+  1. Nome e título do site
+  2. Textos da seção inicial (hero/carrossel)
+  3. Textos da seção “Sobre”
+  4. CRP, formação, especializações, abordagem terapêutica
+  5. Horários de atendimento
+  6. Número de WhatsApp e texto automático do botão
+  7. Instagram (nome de usuário e link)
+  8. Frases favoritas (como post-its no final do site)
+  9. FAQ (perguntas e respostas)
+ 10. Depoimentos (nome, texto e imagem de cada depoente)
+ 11. Cores principais do site (fundo, botões, textos etc.)
+- Todos os textos devem ser **editáveis ou desativáveis individualmente**
+
+🎨 Painel visual:
+- Design moderno, delicado e intuitivo
+- Responsivo para celular e desktop
+- Inputs organizados por seções (ex: “Sobre”, “Contato”, “Frases”, “Depoimentos”…)
+- Upload de imagem com preview
+- Cores podem ser alteradas com input `type="color"`
+- Incluir botão “Salvar alterações” e alerta de “Salvo com sucesso”
+
+⚠️ Restrições:
+- Não usar backend (Node, PHP, MySQL etc)
+- Nenhum formulário de email
+- Nenhuma dependência de Netlify Identity
+- Nenhuma dependência de feed do Instagram
+- O site principal deve carregar o `content.json` dinamicamente e refletir todas as alterações
+
+🧠 Observação técnica:
+- Para autenticar na GitHub API, usar `fetch` com `Authorization: token SEU_TOKEN`
+- O token e o repositório podem ser definidos em variáveis no topo do `github.js`
+- O commit deve ser feito com mensagem padrão como: `Update content.json via painel`
+
+
+Tem como fazer isso estando hospedado no netlify?

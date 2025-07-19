@@ -1,0 +1,106 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="deskBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f7e7ce;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff3b7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="notebook" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#deskBg)"/>
+  
+  <!-- Desk surface -->
+  <rect x="0" y="400" width="1200" height="200" fill="#d4a574" opacity="0.3"/>
+  
+  <!-- Notebook -->
+  <rect x="400" y="250" width="400" height="280" fill="url(#notebook)" rx="5"/>
+  <rect x="410" y="260" width="380" height="260" fill="white" rx="3"/>
+  
+  <!-- Notebook lines -->
+  <line x1="430" y1="280" x2="770" y2="280" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="430" y1="300" x2="770" y2="300" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="430" y1="320" x2="770" y2="320" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="430" y1="340" x2="770" y2="340" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="430" y1="360" x2="770" y2="360" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="430" y1="380" x2="770" y2="380" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="430" y1="400" x2="770" y2="400" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="430" y1="420" x2="770" y2="420" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="430" y1="440" x2="770" y2="440" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="430" y1="460" x2="770" y2="460" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="430" y1="480" x2="770" y2="480" stroke="#e0e0e0" stroke-width="1"/>
+  <line x1="430" y1="500" x2="770" y2="500" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Margin line -->
+  <line x1="460" y1="260" x2="460" y2="520" stroke="#f4c2c2" stroke-width="2"/>
+  
+  <!-- Written text simulation -->
+  <rect x="470" y="275" width="200" height="8" fill="#333" opacity="0.7" rx="2"/>
+  <rect x="470" y="295" width="280" height="8" fill="#333" opacity="0.7" rx="2"/>
+  <rect x="470" y="315" width="180" height="8" fill="#333" opacity="0.7" rx="2"/>
+  <rect x="470" y="335" width="250" height="8" fill="#333" opacity="0.7" rx="2"/>
+  <rect x="470" y="355" width="220" height="8" fill="#333" opacity="0.7" rx="2"/>
+  
+  <!-- Pen -->
+  <rect x="820" y="300" width="8" height="120" fill="#4169E1" rx="4"/>
+  <rect x="818" y="290" width="12" height="20" fill="#FFD700" rx="2"/>
+  <circle cx="824" cy="425" r="4" fill="#333"/>
+  
+  <!-- Coffee cup -->
+  <ellipse cx="200" cy="450" rx="40" ry="15" fill="#8B4513"/>
+  <ellipse cx="200" cy="445" rx="40" ry="15" fill="#D2691E"/>
+  <ellipse cx="200" cy="440" rx="35" ry="12" fill="#F4A460"/>
+  <ellipse cx="200" cy="435" rx="30" ry="10" fill="#DEB887"/>
+  
+  <!-- Cup handle -->
+  <ellipse cx="240" cy="445" rx="12" ry="18" fill="none" stroke="#8B4513" stroke-width="6"/>
+  
+  <!-- Steam -->
+  <path d="M 190 420 Q 185 410 190 400 Q 195 390 190 380" stroke="#ddd" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 200 420 Q 195 410 200 400 Q 205 390 200 380" stroke="#ddd" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M 210 420 Q 205 410 210 400 Q 215 390 210 380" stroke="#ddd" stroke-width="2" fill="none" opacity="0.7"/>
+  
+  <!-- Glasses -->
+  <ellipse cx="1000" cy="300" rx="50" ry="40" fill="none" stroke="#333" stroke-width="3"/>
+  <ellipse cx="1100" cy="300" rx="50" ry="40" fill="none" stroke="#333" stroke-width="3"/>
+  <line x1="1050" y1="290" x2="1050" y2="310" stroke="#333" stroke-width="3"/>
+  <line x1="950" y1="300" x2="920" y2="320" stroke="#333" stroke-width="3"/>
+  <line x1="1150" y1="300" x2="1180" y2="320" stroke="#333" stroke-width="3"/>
+  
+  <!-- Lens reflection -->
+  <ellipse cx="1000" cy="300" rx="45" ry="35" fill="white" opacity="0.1"/>
+  <ellipse cx="1100" cy="300" rx="45" ry="35" fill="white" opacity="0.1"/>
+  
+  <!-- Plant in pot -->
+  <ellipse cx="100" cy="480" rx="30" ry="20" fill="#8B4513"/>
+  <ellipse cx="100" cy="475" rx="30" ry="20" fill="#D2691E"/>
+  <ellipse cx="100" cy="470" rx="25" ry="15" fill="#8B4513"/>
+  
+  <!-- Plant leaves -->
+  <ellipse cx="100" cy="430" rx="20" ry="30" fill="#a8c69f"/>
+  <ellipse cx="110" cy="420" rx="15" ry="25" fill="#8fb987"/>
+  <ellipse cx="90" cy="425" rx="18" ry="28" fill="#a8c69f"/>
+  <ellipse cx="105" cy="410" rx="12" ry="20" fill="#8fb987"/>
+  
+  <!-- Soft shadows -->
+  <ellipse cx="600" cy="550" rx="300" ry="30" fill="#333" opacity="0.1"/>
+  <ellipse cx="200" cy="480" rx="50" ry="10" fill="#333" opacity="0.1"/>
+  <ellipse cx="1050" cy="340" rx="80" ry="15" fill="#333" opacity="0.1"/>
+  <ellipse cx="100" cy="500" rx="35" ry="8" fill="#333" opacity="0.1"/>
+  
+  <!-- Warm lighting -->
+  <circle cx="300" cy="200" r="150" fill="white" opacity="0.05"/>
+  <circle cx="900" cy="150" r="200" fill="white" opacity="0.05"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="200" r="15" fill="#f4c2c2" opacity="0.3"/>
+  <circle cx="80" cy="180" r="10" fill="#e6e6fa" opacity="0.3"/>
+  <circle cx="110" cy="220" r="12" fill="#fff3b7" opacity="0.3"/>
+  
+  <circle cx="1100" cy="150" r="18" fill="#a8c69f" opacity="0.3"/>
+  <circle cx="1130" cy="130" r="12" fill="#f4c2c2" opacity="0.3"/>
+  <circle cx="1160" cy="170" r="15" fill="#e6e6fa" opacity="0.3"/>
+</svg>

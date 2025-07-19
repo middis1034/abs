@@ -1,0 +1,56 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f7e7ce;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6e6fa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="couch" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f4c2c2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8b8b8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="600" fill="url(#bg1)"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="450" width="1200" height="150" fill="#f0f0f0" opacity="0.3"/>
+  
+  <!-- Wall decoration -->
+  <rect x="50" y="50" width="300" height="200" fill="white" opacity="0.6" rx="10"/>
+  
+  <!-- Couch -->
+  <rect x="400" y="300" width="400" height="120" fill="url(#couch)" rx="20"/>
+  <rect x="380" y="280" width="80" height="60" fill="url(#couch)" rx="15"/>
+  <rect x="740" y="280" width="80" height="60" fill="url(#couch)" rx="15"/>
+  
+  <!-- Cushions -->
+  <ellipse cx="500" cy="320" rx="60" ry="25" fill="#e8b8b8"/>
+  <ellipse cx="650" cy="320" rx="60" ry="25" fill="#e8b8b8"/>
+  
+  <!-- Coffee table -->
+  <rect x="500" y="450" width="200" height="15" fill="#d4a574" rx="5"/>
+  <rect x="520" y="465" width="20" height="80" fill="#d4a574"/>
+  <rect x="660" y="465" width="20" height="80" fill="#d4a574"/>
+  
+  <!-- Plant -->
+  <rect x="150" y="400" width="40" height="80" fill="#8fb987" rx="20"/>
+  <ellipse cx="170" cy="380" rx="30" ry="40" fill="#a8c69f"/>
+  <ellipse cx="180" cy="360" rx="25" ry="35" fill="#a8c69f"/>
+  <ellipse cx="160" cy="365" rx="20" ry="30" fill="#a8c69f"/>
+  
+  <!-- Window -->
+  <rect x="900" y="100" width="200" height="250" fill="white" opacity="0.7" rx="10"/>
+  <rect x="910" y="110" width="180" height="230" fill="#fff3b7" opacity="0.5" rx="5"/>
+  <line x1="1000" y1="110" x2="1000" y2="340" stroke="#ddd" stroke-width="2"/>
+  <line x1="910" y1="225" x2="1090" y2="225" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- Soft lighting effect -->
+  <circle cx="600" cy="100" r="150" fill="white" opacity="0.1"/>
+  <circle cx="600" cy="100" r="100" fill="white" opacity="0.1"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="250" cy="200" r="8" fill="#f4c2c2" opacity="0.6"/>
+  <circle cx="280" cy="180" r="6" fill="#a8c69f" opacity="0.6"/>
+  <circle cx="320" cy="220" r="10" fill="#fff3b7" opacity="0.6"/>
+</svg>

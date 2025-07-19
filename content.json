@@ -1,0 +1,110 @@
+{
+  "site": {
+    "name": "Olivi",
+    "title": "Psicóloga"
+  },
+  "hero": [
+    {
+      "title": "Um espaço seguro para o seu bem-estar",
+      "subtitle": "Aqui você encontra acolhimento e compreensão para sua jornada de autoconhecimento",
+      "image": "assets/imgs/placeholder-hero1.svg"
+    },
+    {
+      "title": "Cuidando da sua saúde mental com carinho",
+      "subtitle": "Juntos podemos construir um caminho mais leve e equilibrado",
+      "image": "assets/imgs/placeholder-hero2.svg"
+    },
+    {
+      "title": "Transformando desafios em crescimento",
+      "subtitle": "Cada sessão é um passo em direção a uma versão mais plena de você",
+      "image": "assets/imgs/placeholder-hero3.svg"
+    }
+  ],
+  "about": {
+    "text": "Sou psicóloga clínica especializada em Terapia Cognitivo-Comportamental (TCC), com experiência em atendimento individual para adolescentes e adultos. Minha abordagem é acolhedora e baseada em evidências científicas, sempre respeitando o ritmo e as necessidades de cada pessoa.",
+    "crp": "00/000000",
+    "education": "Graduação em Psicologia pela Universidade Federal de Santa Catarina (UFSC)",
+    "specializations": "Especialização em Terapia Cognitivo-Comportamental\nFormação em Mindfulness\nTécnicas de Relaxamento e Controle de Ansiedade"
+  },
+  "contact": {
+    "whatsapp": "5548999999999",
+    "whatsappText": "Olá! Gostaria de agendar uma consulta.",
+    "instagram": "olivipsicologa"
+  },
+  "testimonials": [
+    {
+      "name": "Maria Silva",
+      "text": "A Olivi me ajudou a superar um momento muito difícil. Sua abordagem é carinhosa e profissional.",
+      "image": "assets/imgs/placeholder-testimonial1.svg"
+    },
+    {
+      "name": "João Santos",
+      "text": "Excelente profissional! Me sinto muito mais confiante após nossos encontros.",
+      "image": "assets/imgs/placeholder-testimonial2.svg"
+    },
+    {
+      "name": "Ana Costa",
+      "text": "Recomendo muito! A terapia com a Olivi mudou minha perspectiva sobre muitas coisas.",
+      "image": "assets/imgs/placeholder-testimonial3.svg"
+    },
+    {
+      "name": "Pedro Oliveira",
+      "text": "Ambiente acolhedor e profissional competente. Estou muito satisfeito com o acompanhamento.",
+      "image": "assets/imgs/placeholder-testimonial4.svg"
+    },
+    {
+      "name": "Carla Mendes",
+      "text": "A Olivi tem uma escuta muito atenta e me ajuda a encontrar caminhos para os meus desafios.",
+      "image": "assets/imgs/placeholder-testimonial5.svg"
+    }
+  ],
+  "quotes": [
+    {
+      "text": "O curioso paradoxo é que, quando me aceito como sou, então posso mudar.",
+      "author": "Carl Rogers"
+    },
+    {
+      "text": "Tudo o que é humano, me interessa.",
+      "author": "Terêncio"
+    },
+    {
+      "text": "Respirar também é um ato de coragem.",
+      "author": "autor desconhecido"
+    },
+    {
+      "text": "A vida não é sobre se encontrar. A vida é sobre se criar.",
+      "author": "George Bernard Shaw"
+    },
+    {
+      "text": "Seja gentil, pois todas as pessoas que você encontra estão lutando uma batalha difícil.",
+      "author": "Platão"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Como é a primeira sessão?",
+      "answer": "É completamente normal sentir ansiedade ou curiosidade sobre a primeira sessão. A terapia é um espaço seu, onde você pode falar sobre o que está sentindo sem julgamentos. Começamos sempre no seu ritmo, com muito acolhimento e compreensão."
+    },
+    {
+      "question": "Você atende online?",
+      "answer": "Sim! Ofereço atendimento tanto online quanto presencial. As sessões online são realizadas por videochamada em plataforma segura e têm a mesma eficácia que as sessões presenciais."
+    },
+    {
+      "question": "O que é a TCC?",
+      "answer": "A Terapia Cognitivo-Comportamental (TCC) é uma abordagem que nos ajuda a compreender como nossos pensamentos, sentimentos e comportamentos estão conectados. É uma terapia prática e eficaz, com técnicas validadas cientificamente."
+    },
+    {
+      "question": "Tudo é sigiloso?",
+      "answer": "Absolutamente! O sigilo é um dos pilares fundamentais da prática psicológica. Tudo o que você compartilhar nas sessões é confidencial e protegido pelo código de ética profissional."
+    },
+    {
+      "question": "Como agendar uma consulta?",
+      "answer": "Você pode entrar em contato comigo pelo WhatsApp clicando no botão da seção inicial. Ficarei feliz em esclarecer suas dúvidas e agendar nossa primeira conversa."
+    }
+  ],
+  "colors": {
+    "primary": "#D4C5B9",
+    "secondary": "#E8D5C4",
+    "accent": "#F0E6D6"
+  }
+}

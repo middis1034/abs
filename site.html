@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivi - Psicóloga | Terapia Online e Presencial</title>
+    <meta name="description" content="Olivi - Psicóloga especializada em Terapia Cognitivo-Comportamental. Atendimento online e presencial com foco em ansiedade, relacionamentos e autoestima.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>Olivi</h1>
+                    <span>Psicóloga</span>
+                </div>
+                
+                <!-- Hamburger Menu -->
+                <button class="nav-toggle" id="nav-toggle">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <!-- Navigation Menu -->
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#abordagem" class="nav-link">Abordagem</a></li>
+                    <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Carousel -->
+    <section id="inicio" class="hero">
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <img src="assets/imgs/placeholder-hero1.svg" alt="Ambiente acolhedor do consultório">
+                <div class="carousel-overlay">
+                    <h2>Um espaço seguro para o seu bem-estar</h2>
+                    <p>Aqui você encontra acolhimento e compreensão para sua jornada de autoconhecimento</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="assets/imgs/placeholder-hero2.svg" alt="Natureza transmitindo paz">
+                <div class="carousel-overlay">
+                    <h2>Cuidando da sua saúde mental com carinho</h2>
+                    <p>Juntos podemos construir um caminho mais leve e equilibrado</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="assets/imgs/placeholder-hero3.svg" alt="Caderno e reflexões">
+                <div class="carousel-overlay">
+                    <h2>Transformando desafios em crescimento</h2>
+                    <p>Cada sessão é um passo em direção a uma versão mais plena de você</p>
+                </div>
+            </div>
+            
+            <!-- Carousel Navigation -->
+            <button class="carousel-prev" id="carousel-prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-next" id="carousel-next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <span class="indicator active" data-slide="0"></span>
+                <span class="indicator" data-slide="1"></span>
+                <span class="indicator" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="intro">
+        <div class="container">
+            <div class="intro-content">
+                <h2>Seja bem-vindo(a)</h2>
+                <p>Sou a Olivi, e estou aqui para acompanhá-lo(a) em sua jornada de autoconhecimento e bem-estar emocional. Acredito que cada pessoa carrega dentro de si a capacidade de transformação e crescimento, e meu papel é oferecer um espaço seguro e acolhedor para que essa descoberta aconteça naturalmente.</p>
+                
+                <div class="intro-buttons">
+                    <a href="https://wa.me/5548999999999?text=Olá! Gostaria de agendar uma consulta." class="btn btn-primary" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        Fale comigo no WhatsApp
+                    </a>
+                    <a href="https://instagram.com/olivipsicologa" class="btn btn-secondary" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                        Siga no Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre mim</h2>
+                    <div class="about-info">
+                        <h3>Olivi Santos</h3>
+                        <p class="crp">CRP: 00/000000</p>
+                        
+                        <div class="info-item">
+                            <h4>Formação</h4>
+                            <p>Graduada em Psicologia pela Universidade Federal de Santa Catarina (UFSC)</p>
+                        </div>
+                        
+                        <div class="info-item" id="abordagem">
+                            <h4>Abordagem</h4>
+                            <p>Especializada em Terapia Cognitivo-Comportamental (TCC), uma abordagem que nos ajuda a compreender como nossos pensamentos, sentimentos e comportamentos se relacionam.</p>
+                        </div>
+                        
+                        <div class="info-item">
+                            <h4>Especializações</h4>
+                            <ul>
+                                <li>Transtornos de ansiedade</li>
+                                <li>Relacionamentos interpessoais</li>
+                                <li>Autoestima e autoconhecimento</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="info-item">
+                            <h4>Modalidades de Atendimento</h4>
+                            <p>Atendimento online e presencial</p>
+                        </div>
+                        
+                        <div class="info-item">
+                            <h4>Horários</h4>
+                            <p>Segunda a sexta-feira, das 9h às 18h</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="depoimentos" class="testimonials">
+        <div class="container">
+            <h2>O que dizem sobre o trabalho</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="assets/imgs/placeholder-testimonial1.svg" alt="Avatar">
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"A Olivi me ajudou a entender meus padrões de ansiedade e desenvolver ferramentas práticas para lidar com eles. Sou muito grata!"</p>
+                        <span class="testimonial-author">— Ana</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="assets/imgs/placeholder-testimonial2.svg" alt="Avatar">
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Finalmente encontrei um espaço onde me sinto verdadeiramente ouvida e compreendida. As sessões online são muito confortáveis."</p>
+                        <span class="testimonial-author">— Maria</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="assets/imgs/placeholder-testimonial3.svg" alt="Avatar">
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"O trabalho com a Olivi transformou minha forma de me relacionar comigo mesmo e com os outros. Recomendo muito!"</p>
+                        <span class="testimonial-author">— Carlos</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="assets/imgs/placeholder-testimonial4.svg" alt="Avatar">
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"A abordagem dela é muito acolhedora e eficaz. Consegui trabalhar questões que carregava há anos."</p>
+                        <span class="testimonial-author">— Juliana</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">
+                        <img src="assets/imgs/placeholder-testimonial5.svg" alt="Avatar">
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Profissional excelente, muito empática e competente. As sessões me trouxeram clareza e bem-estar."</p>
+                        <span class="testimonial-author">— Roberto</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Nunca fiz terapia. Como funciona?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>É completamente normal sentir ansiedade ou curiosidade sobre a primeira sessão. A terapia é um espaço seu, onde você pode falar sobre o que está sentindo sem julgamentos. Começamos sempre no seu ritmo, com muito acolhimento e compreensão.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Você atende online?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! Ofereço atendimento tanto online quanto presencial. As sessões online são realizadas por videochamada em plataforma segura e têm a mesma eficácia que as sessões presenciais.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>O que é a TCC?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>A Terapia Cognitivo-Comportamental (TCC) é uma abordagem que nos ajuda a compreender como nossos pensamentos, sentimentos e comportamentos estão conectados. É uma terapia prática e eficaz, com técnicas validadas cientificamente.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Tudo é sigiloso?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutamente! O sigilo é um dos pilares fundamentais da prática psicológica. Tudo o que você compartilhar nas sessões é confidencial e protegido pelo código de ética profissional.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Como agendar uma consulta?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Você pode entrar em contato comigo pelo WhatsApp clicando no botão da seção inicial. Ficarei feliz em esclarecer suas dúvidas e agendar nossa primeira conversa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contato" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Olivi Santos</h3>
+                    <p>Psicóloga | CRP: 00/000000</p>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://wa.me/5548999999999?text=Olá! Gostaria de agendar uma consulta." target="_blank" class="social-link">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://instagram.com/olivipsicologa" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>made by ∞</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/faq.js"></script>
+    <script src="assets/js/smooth-scroll.js"></script>
+</body>
+</html>

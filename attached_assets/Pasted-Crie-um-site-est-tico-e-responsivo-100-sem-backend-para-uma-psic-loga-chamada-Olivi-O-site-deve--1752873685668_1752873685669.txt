@@ -1,0 +1,69 @@
+Crie um site estático e responsivo, 100% sem backend, para uma psicóloga chamada Olivi. O site deve ser visualmente delicado, acolhedor, profissional e elegante. Será hospedado no Netlify.
+
+A Olivi é uma pessoa gentil, sensível e atenta aos detalhes. Ela gosta de cores suaves como amarelo claro, rosa pálido, lavanda e bege. O site deve transmitir empatia, leveza e confiança, com aparência profissional e design limpo.
+
+📦 Estrutura de arquivos:
+- `index.html`
+- `css/style.css`
+- `js/script.js` (opcional)
+- pasta `/img` com imagens placeholder
+- organização clara e pronta para deploy no Netlify
+
+🎨 Estilo visual:
+- Cores suaves (rosa claro, amarelo pálido, branco, bege, lavanda, verde-musgo suave)
+- Tipografia: serifada leve para títulos (ex: Playfair Display) e sans serif moderna para o corpo (ex: Open Sans ou Inter)
+- Bordas arredondadas, sombras suaves, animações sutis
+- Design mobile-first e responsivo
+- Ícones minimalistas (menu, redes sociais, etc.)
+
+📐 Estrutura do site:
+
+1. **Header fixo com menu hambúrguer:**
+   - Nome
+   - Menu: Início | Sobre | Abordagem | Depoimentos | Contato
+
+2. **Carrossel de imagens (hero rotativo):**
+   - 3 imagens suaves (consultório, natureza, caderno, etc.)
+   - Cada imagem com uma frase de acolhimento em sobreposição
+
+3. **Seção introdutória:**
+   - Breve parágrafo de boas-vindas
+   - Dois botões:
+     - “Fale comigo no WhatsApp” → link direto com número fictício
+     - “Siga no Instagram” → link externo
+
+4. **Seção 'Sobre':**
+   - Nome completo
+   - CRP: 00/000000
+   - Formação: Universidade Federal de Santa Catarina (UFSC)
+   - Abordagem: Terapia Cognitivo-Comportamental (TCC)
+   - Especializações: ansiedade, relacionamentos, autoestima
+   - Atendimentos: online e presencial
+   - Horário: segunda a sexta, das 9h às 18h
+
+5. **Seção de Depoimentos (fictícios):**
+   - 5 depoimentos curtos com nome e imagem (placeholders)
+   - Layout em cartões ou carrossel horizontal
+
+6. **Seção FAQ (curta e acolhedora):**
+   - 3 a 5 perguntas frequentes respondidas com empatia, como:
+     - “Nunca fiz terapia. Como funciona?”
+     - “Você atende online?”
+     - “O que é a TCC?”
+     - “Tudo é sigiloso?”
+   - Estilo accordion com animação suave ao expandir
+
+7. **Rodapé (footer):**
+   - Nome: 
+   - CRP novamente
+   - Ícones/link para WhatsApp e Instagram
+   - Frase discreta ao final:
+     - `made by ∞`
+
+⚙️ Requisitos extras:
+- Nenhum formulário (evitar uso de backend)
+- Código comentado e limpo
+- Estrutura preparada para integração futura com Netlify CMS
+
+🎯 Objetivo:
+Transmitir acolhimento, leveza e profissionalismo com um site bonito, estático e funcional — sem formulários, com navegação fluida e sensível, pronto para deploy no Netlify.
